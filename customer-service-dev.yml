@@ -5,7 +5,7 @@ server:
 message: Hellow from Dev!
 spring:
   datasource:
-     url: jdbc:mysql://localhost3306/cust_dev
+     url: jdbc:mysql://localhost3306/customer-master
      username: root
      password:
   jpa:
