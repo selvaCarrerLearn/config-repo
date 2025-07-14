@@ -6,8 +6,8 @@ message: Hello from Order Dev!
 spring:
   datasource:
      url: jdbc:h2:mem:order_master
-     username: root
-     password:
+     username: root1
+     password: root1
   jpa:
     hibernate:
       ddl-auto: update
