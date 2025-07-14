@@ -6,8 +6,8 @@ message: Hello from Order Prod!
 spring:
   datasource:
      url: jdbc:mysql://localhost:3306/order_prod
-     username: root
-     password:
+     username: root1
+     password: root1
   jpa:
     hibernate:
       ddl-auto: update
