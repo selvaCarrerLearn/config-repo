@@ -2,13 +2,13 @@ global:
   message: Welcome to order service dev environment!!
 server:
   port: 8084
-message: Hellow from order Dev!
+message: Hello from Order Dev!
 spring:
   datasource:
-     url: jdbc:mysql://localhost3306/order-master
+     url: jdbc:h2:mem:order_master
      username: root
      password:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true 
+    show-sql: true
