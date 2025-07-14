@@ -6,8 +6,8 @@ message: Hello from Dev!
 spring:
   datasource:
      url: jdbc:mysql://localhost:3306/customer_master
-     username: root
-     password:
+     username: root1
+     password: root1
   jpa:
     hibernate:
       ddl-auto: update
